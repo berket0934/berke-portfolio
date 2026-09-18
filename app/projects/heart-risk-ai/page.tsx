@@ -234,6 +234,21 @@ export default function HeartRiskAI() {
           </p>
         </div>
       </section>
+      
+{/* GitHub */}
+<section className="relative z-10 px-6 py-12">
+  <div className="mx-auto max-w-6xl">
+    <a
+      href="https://github.com/berket0934/heart-risk-ai"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 font-medium text-black transition duration-300 hover:scale-105"
+    >
+      View Code on GitHub
+      <span>↗</span>
+    </a>
+  </div>
+</section>
 
       {/* Technologies */}
       <section className="relative z-10 px-6 py-24">

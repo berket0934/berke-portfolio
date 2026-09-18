@@ -38,7 +38,14 @@ export default function FootballXGAnalytics() {
             rule-based statistical model to identify high-scoring match
             candidates.
           </p>
-
+{/* Project Visual */}
+<div className="mt-14 overflow-hidden rounded-3xl border border-white/10 bg-white/[0.03]">
+  <img
+    src="/projects/football-xg.png"
+    alt="Football xG Analytics project"
+    className="aspect-video w-full object-cover"
+  />
+</div>
           {/* Metrics */}
           <div className="mt-14 flex flex-wrap gap-12 border-t border-white/10 pt-10">
             <div>

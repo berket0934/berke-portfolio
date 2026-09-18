@@ -39,7 +39,14 @@ export default function HeartRiskAI() {
             predict the presence of heart disease using preprocessing,
             feature transformation and binary classification.
           </p>
-
+{/* Project Visual */}
+<div className="mt-14 overflow-hidden rounded-3xl border border-white/10 bg-white/[0.03]">
+  <img
+    src="/projects/heart-risk.png"
+    alt="HeartRisk AI cardiovascular risk prediction"
+    className="aspect-video w-full object-cover"
+  />
+</div>
           {/* Metrics */}
           <div className="mt-14 flex flex-wrap gap-12 border-t border-white/10 pt-10">
             <div>

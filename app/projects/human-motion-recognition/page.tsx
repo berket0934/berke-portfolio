@@ -37,7 +37,14 @@ export default function HumanMotionRecognition() {
             classifies motion patterns from multichannel IMU sensor data using
             a 1D Convolutional Neural Network.
           </p>
-
+{/* Project Visual */}
+<div className="mt-14 overflow-hidden rounded-3xl border border-white/10 bg-white/[0.03]">
+  <img
+    src="/projects/human-motion.png"
+    alt="Human Motion Recognition using IMU sensors"
+    className="aspect-video w-full object-cover"
+  />
+</div>
           {/* Metrics */}
           <div className="mt-14 flex flex-wrap gap-12 border-t border-white/10 pt-10">
             <div>

@@ -78,103 +78,133 @@ export default function Home() {
             Featured Projects
           </h2>
 
-          {/* Project 01 */}
-          <div className="mt-14 rounded-3xl border border-white/10 bg-white/[0.03] p-8 transition duration-300 hover:-translate-y-1 hover:border-blue-500/40 hover:bg-white/[0.05] hover:shadow-[0_0_50px_rgba(59,130,246,0.08)]">
-            <p className="text-sm text-gray-500">01</p>
+ {/* Project 01 */}
+<div className="mt-14 rounded-3xl border border-white/10 bg-white/[0.03] p-8 transition duration-300 hover:-translate-y-1 hover:border-blue-500/40 hover:bg-white/[0.05] hover:shadow-[0_0_50px_rgba(59,130,246,0.08)]">
 
-            <h3 className="mt-5 text-3xl font-semibold">
-              Human Motion Recognition
-            </h3>
+  <div className="mb-8 overflow-hidden rounded-2xl border border-white/10">
+    <img
+      src="/projects/human-motion.png"
+      alt="Human Motion Recognition project"
+      className="aspect-video w-full object-cover"
+    />
+  </div>
 
-            <p className="mt-4 max-w-2xl leading-7 text-gray-400">
-              Deep learning-based human activity recognition system using
-              multichannel IMU sensor data and a 1D convolutional neural network.
-            </p>
+  <p className="text-sm text-gray-500">01</p>
 
-            <div className="mt-8 flex flex-wrap gap-3">
-              <span className="rounded-full border border-white/10 px-4 py-2 text-sm text-gray-400">
-                1D CNN
-              </span>
-              <span className="rounded-full border border-white/10 px-4 py-2 text-sm text-gray-400">
-                MATLAB
-              </span>
-              <span className="rounded-full border border-white/10 px-4 py-2 text-sm text-gray-400">
-                Simulink
-              </span>
-              <span className="rounded-full border border-white/10 px-4 py-2 text-sm text-gray-400">
-                IMU
-              </span>
-            </div>
+  <h3 className="mt-5 text-3xl font-semibold">
+    Human Motion Recognition
+  </h3>
 
-            <div className="mt-10 flex gap-10">
-              <div>
-                <p className="text-3xl font-semibold">96.74%</p>
-                <p className="mt-1 text-sm text-gray-500">Accuracy</p>
-              </div>
+  <p className="mt-4 max-w-2xl leading-7 text-gray-400">
+    Deep learning-based human activity recognition system using
+    multichannel IMU sensor data and a 1D convolutional neural network.
+  </p>
 
-              <div>
-                <p className="text-3xl font-semibold">0.92</p>
-                <p className="mt-1 text-sm text-gray-500">F1 Score</p>
-              </div>
-              <a
-  href="/projects/human-motion-recognition"
-  className="mt-10 inline-flex items-center gap-2 text-sm font-medium text-blue-400 transition hover:text-blue-300"
->
-  View Case Study
-  <span>→</span>
-</a>
-            </div>
-          </div>
+  <div className="mt-8 flex flex-wrap gap-3">
+    <span className="rounded-full border border-white/10 px-4 py-2 text-sm text-gray-400">
+      1D CNN
+    </span>
+    <span className="rounded-full border border-white/10 px-4 py-2 text-sm text-gray-400">
+      MATLAB
+    </span>
+    <span className="rounded-full border border-white/10 px-4 py-2 text-sm text-gray-400">
+      Simulink
+    </span>
+    <span className="rounded-full border border-white/10 px-4 py-2 text-sm text-gray-400">
+      IMU
+    </span>
+  </div>
 
-          {/* Project 02 */}
-          <div className="mt-8 rounded-3xl border border-white/10 bg-white/[0.03] p-8 transition duration-300 hover:-translate-y-1 hover:border-blue-500/40 hover:bg-white/[0.05] hover:shadow-[0_0_50px_rgba(59,130,246,0.08)]">
-            <p className="text-sm text-gray-500">02</p>
+  <div className="mt-10 flex gap-10">
+    <div>
+      <p className="text-3xl font-semibold">96.74%</p>
+      <p className="mt-1 text-sm text-gray-500">Accuracy</p>
+    </div>
 
-            <h3 className="mt-5 text-3xl font-semibold">
-              HeartRisk AI
-            </h3>
+    <div>
+      <p className="text-3xl font-semibold">0.92</p>
+      <p className="mt-1 text-sm text-gray-500">F1 Score</p>
+    </div>
+  </div>
 
-            <p className="mt-4 max-w-2xl leading-7 text-gray-400">
-              Deep neural network for heart disease risk prediction using
-              clinical patient data and structured preprocessing techniques.
-            </p>
+  <a
+    href="/projects/human-motion-recognition"
+    className="mt-10 inline-flex items-center gap-2 text-sm font-medium text-blue-400 transition hover:text-blue-300"
+  >
+    View Case Study
+    <span>→</span>
+  </a>
+</div>
 
-            <div className="mt-8 flex flex-wrap gap-3">
-              <span className="rounded-full border border-white/10 px-4 py-2 text-sm text-gray-400">
-                TensorFlow
-              </span>
-              <span className="rounded-full border border-white/10 px-4 py-2 text-sm text-gray-400">
-                Keras
-              </span>
-              <span className="rounded-full border border-white/10 px-4 py-2 text-sm text-gray-400">
-                Scikit-learn
-              </span>
-              <span className="rounded-full border border-white/10 px-4 py-2 text-sm text-gray-400">
-                Python
-              </span>
-            </div>
 
-            <div className="mt-10 flex gap-10">
-              <div>
-                <p className="text-3xl font-semibold">87%</p>
-                <p className="mt-1 text-sm text-gray-500">Accuracy</p>
-              </div>
+{/* Project 02 */}
+<div className="mt-8 rounded-3xl border border-white/10 bg-white/[0.03] p-8 transition duration-300 hover:-translate-y-1 hover:border-blue-500/40 hover:bg-white/[0.05] hover:shadow-[0_0_50px_rgba(59,130,246,0.08)]">
 
-              <div>
-                <p className="text-3xl font-semibold">88%</p>
-                <p className="mt-1 text-sm text-gray-500">Recall</p>
-              </div>
-              <a
-  href="/projects/heart-risk-ai"
-  className="mt-10 inline-flex items-center gap-2 text-sm font-medium text-blue-400 transition hover:text-blue-300"
->
-  View Case Study
-  <span>→</span>
-</a>
-            </div>
-          </div>
+  <div className="mb-8 overflow-hidden rounded-2xl border border-white/10">
+    <img
+      src="/projects/heart-risk.png"
+      alt="HeartRisk AI project"
+      className="aspect-video w-full object-cover"
+    />
+  </div>
+
+  <p className="text-sm text-gray-500">02</p>
+
+  <h3 className="mt-5 text-3xl font-semibold">
+    HeartRisk AI
+  </h3>
+
+  <p className="mt-4 max-w-2xl leading-7 text-gray-400">
+    Deep neural network for heart disease risk prediction using
+    clinical patient data and structured preprocessing techniques.
+  </p>
+
+  <div className="mt-8 flex flex-wrap gap-3">
+    <span className="rounded-full border border-white/10 px-4 py-2 text-sm text-gray-400">
+      TensorFlow
+    </span>
+    <span className="rounded-full border border-white/10 px-4 py-2 text-sm text-gray-400">
+      Keras
+    </span>
+    <span className="rounded-full border border-white/10 px-4 py-2 text-sm text-gray-400">
+      Scikit-learn
+    </span>
+    <span className="rounded-full border border-white/10 px-4 py-2 text-sm text-gray-400">
+      Python
+    </span>
+  </div>
+
+  <div className="mt-10 flex gap-10">
+    <div>
+      <p className="text-3xl font-semibold">87%</p>
+      <p className="mt-1 text-sm text-gray-500">Accuracy</p>
+    </div>
+
+    <div>
+      <p className="text-3xl font-semibold">88%</p>
+      <p className="mt-1 text-sm text-gray-500">Recall</p>
+    </div>
+  </div>
+
+  <a
+    href="/projects/heart-risk-ai"
+    className="mt-10 inline-flex items-center gap-2 text-sm font-medium text-blue-400 transition hover:text-blue-300"
+  >
+    View Case Study
+    <span>→</span>
+  </a>
+</div>
+
+
 {/* Project 03 */}
 <div className="mt-8 rounded-3xl border border-white/10 bg-white/[0.03] p-8 transition duration-300 hover:-translate-y-1 hover:border-blue-500/40 hover:bg-white/[0.05] hover:shadow-[0_0_50px_rgba(59,130,246,0.08)]">
+<div className="mb-8 overflow-hidden rounded-2xl border border-white/10">
+  <img
+    src="/projects/football-xg.png"
+    alt="Football xG Analytics project"
+    className="aspect-video w-full object-cover"
+  />
+</div>
   <p className="text-sm text-gray-500">03</p>
 
   <h3 className="mt-5 text-3xl font-semibold">
@@ -205,17 +235,20 @@ export default function Home() {
     <p className="text-sm uppercase tracking-[0.2em] text-gray-500">
       Statistical Modeling · Sports Analytics
     </p>
-    <a
-  href="/projects/football-xg-analytics"
-  className="mt-10 inline-flex items-center gap-2 text-sm font-medium text-blue-400 transition hover:text-blue-300"
->
-  View Case Study
-  <span>→</span>
-</a>
   </div>
+
+  <a
+    href="/projects/football-xg-analytics"
+    className="mt-10 inline-flex items-center gap-2 text-sm font-medium text-blue-400 transition hover:text-blue-300"
+  >
+    View Case Study
+    <span>→</span>
+  </a>
+
 </div>
-        </div>
-      </section>
+
+</div>
+</section>
 {/* About */}
 <section id="about" className="relative z-10 px-6 py-32">
   <div className="mx-auto max-w-6xl">

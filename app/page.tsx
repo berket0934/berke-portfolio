@@ -68,7 +68,7 @@ export default function Home() {
 
       {/* Projects */}
       <section id="projects" className="relative z-10 px-6 py-32">
-        <div className="mx-auto max-w-6xl">
+        <div className="mx-auto max-w-7xl">
 
           <p className="mb-4 text-sm uppercase tracking-[0.3em] text-blue-500">
             Selected Work
@@ -77,9 +77,9 @@ export default function Home() {
           <h2 className="text-4xl font-bold tracking-tight sm:text-5xl">
             Featured Projects
           </h2>
-
+<div className="mt-14 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
  {/* Project 01 */}
-<div className="mt-14 rounded-3xl border border-white/10 bg-white/[0.03] p-8 transition duration-300 hover:-translate-y-1 hover:border-blue-500/40 hover:bg-white/[0.05] hover:shadow-[0_0_50px_rgba(59,130,246,0.08)]">
+<div className="rounded-3xl border border-white/10 bg-white/[0.03] p-8 flex h-full flex-col transition duration-300 hover:-translate-y-1 hover:border-blue-500/40 hover:bg-white/[0.05] hover:shadow-[0_0_50px_rgba(59,130,246,0.08)]">
 
   <div className="mb-8 overflow-hidden rounded-2xl border border-white/10">
     <img
@@ -129,7 +129,7 @@ export default function Home() {
 
   <a
     href="/projects/human-motion-recognition"
-    className="mt-10 inline-flex items-center gap-2 text-sm font-medium text-blue-400 transition hover:text-blue-300"
+    className="mt-auto pt-10 inline-flex items-center gap-2 text-sm font-medium text-blue-400 transition hover:text-blue-300"
   >
     View Case Study
     <span>→</span>
@@ -138,7 +138,7 @@ export default function Home() {
 
 
 {/* Project 02 */}
-<div className="mt-8 rounded-3xl border border-white/10 bg-white/[0.03] p-8 transition duration-300 hover:-translate-y-1 hover:border-blue-500/40 hover:bg-white/[0.05] hover:shadow-[0_0_50px_rgba(59,130,246,0.08)]">
+<div className="rounded-3xl border border-white/10 bg-white/[0.03] p-8 flex h-full flex-col transition duration-300 hover:-translate-y-1 hover:border-blue-500/40 hover:bg-white/[0.05] hover:shadow-[0_0_50px_rgba(59,130,246,0.08)]">
 
   <div className="mb-8 overflow-hidden rounded-2xl border border-white/10">
     <img
@@ -188,7 +188,7 @@ export default function Home() {
 
   <a
     href="/projects/heart-risk-ai"
-    className="mt-10 inline-flex items-center gap-2 text-sm font-medium text-blue-400 transition hover:text-blue-300"
+    className="mt-auto pt-10 inline-flex items-center gap-2 text-sm font-medium text-blue-400 transition hover:text-blue-300"
   >
     View Case Study
     <span>→</span>
@@ -197,7 +197,7 @@ export default function Home() {
 
 
 {/* Project 03 */}
-<div className="mt-8 rounded-3xl border border-white/10 bg-white/[0.03] p-8 transition duration-300 hover:-translate-y-1 hover:border-blue-500/40 hover:bg-white/[0.05] hover:shadow-[0_0_50px_rgba(59,130,246,0.08)]">
+<div className="rounded-3xl border border-white/10 bg-white/[0.03] p-8 flex h-full flex-col transition duration-300 hover:-translate-y-1 hover:border-blue-500/40 hover:bg-white/[0.05] hover:shadow-[0_0_50px_rgba(59,130,246,0.08)]">
 <div className="mb-8 overflow-hidden rounded-2xl border border-white/10">
   <img
     src="/projects/football-xg.png"
@@ -239,12 +239,13 @@ export default function Home() {
 
   <a
     href="/projects/football-xg-analytics"
-    className="mt-10 inline-flex items-center gap-2 text-sm font-medium text-blue-400 transition hover:text-blue-300"
+    className="mt-auto pt-10 inline-flex items-center gap-2 text-sm font-medium text-blue-400 transition hover:text-blue-300"
   >
     View Case Study
     <span>→</span>
   </a>
 
+</div>
 </div>
 
 </div>

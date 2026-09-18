@@ -1,3 +1,4 @@
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 export default function Home() {
   return (
     <main className="relative min-h-screen overflow-hidden bg-black text-white">
@@ -11,17 +12,43 @@ export default function Home() {
           BT<span className="text-blue-500">.</span>
         </div>
 
-        <div className="flex gap-8 text-sm text-gray-400">
-          <a href="#projects" className="transition hover:text-white">
-            Projects
-          </a>
-          <a href="#about" className="transition hover:text-white">
-            About
-          </a>
-          <a href="#contact" className="transition hover:text-white">
-            Contact
-          </a>
-        </div>
+        <div className="flex items-center gap-4 text-sm text-gray-400 sm:gap-6">
+
+  <a href="#projects" className="transition hover:text-white">
+    Projects
+  </a>
+
+  <a href="#about" className="transition hover:text-white">
+    About
+  </a>
+
+  <a href="#contact" className="transition hover:text-white">
+    Contact
+  </a>
+
+  <div className="hidden h-5 w-px bg-white/10 sm:block" />
+
+  <a
+    href="https://github.com/berket0934"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="GitHub"
+    className="transition hover:text-white"
+  >
+    <FaGithub size={18} />
+  </a>
+
+  <a
+    href="https://www.linkedin.com/in/berke-t%C3%BCylek-a2893a209/"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="LinkedIn"
+    className="transition hover:text-white"
+  >
+    <FaLinkedin size={18} />
+  </a>
+
+</div>
       </nav>
 
       {/* Hero */}

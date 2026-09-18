@@ -250,6 +250,7 @@ export default function Home() {
       {/* Skills */}
       <div>
         <p className="mb-6 text-sm uppercase tracking-[0.25em] text-gray-500">
+          
           Technologies
         </p>
 

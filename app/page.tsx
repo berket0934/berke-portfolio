@@ -305,43 +305,116 @@ export default function Home() {
           I enjoy turning data into practical systems, experimenting with
           deep learning models and building projects across sensor analytics,
           healthcare data and sports analytics.
-        </p>
-      </div>
+          </p>
+          <div className="mt-10 rounded-2xl border border-white/10 bg-white/[0.03] p-6">
+  <p className="text-sm uppercase tracking-[0.2em] text-blue-500">
+    Education
+  </p>
 
+  <h3 className="mt-4 text-xl font-semibold">
+    Istanbul Technical University
+  </h3>
+
+  <p className="mt-2 text-gray-400">
+    B.Sc. Electronics & Communication Engineering
+  </p>
+
+  <p className="mt-4 text-sm leading-6 text-gray-500">
+    Focused on artificial intelligence, machine learning, signal processing,
+    data analytics and software development.
+  </p>
+</div>
+      </div>
+<div className="mt-6 rounded-2xl border border-white/10 bg-white/[0.03] p-6">
+  <p className="text-sm uppercase tracking-[0.2em] text-blue-500">
+    Experience
+  </p>
+
+  <div className="mt-5 space-y-6">
+
+    <div>
+      <h3 className="text-lg font-semibold">
+        Garanti BBVA Technology
+      </h3>
+      <p className="mt-1 text-sm text-gray-500">
+        IT Operations · 1 Year
+      </p>
+      <p className="mt-3 leading-7 text-gray-400">
+        Worked across IT operations, infrastructure, troubleshooting,
+        collaboration tools and enterprise technology environments.
+      </p>
+    </div>
+
+    <div className="border-t border-white/10 pt-6">
+      <h3 className="text-lg font-semibold">
+        Baykar Technology
+      </h3>
+      <p className="mt-1 text-sm text-gray-500">
+        Technology Internship · 4 Months
+      </p>
+      <p className="mt-3 leading-7 text-gray-400">
+        Gained hands-on experience in a technology-focused engineering
+        environment while contributing to technical projects and workflows.
+      </p>
+    </div>
+
+  </div>
+</div>
       {/* Skills */}
-      <div>
-        <p className="mb-6 text-sm uppercase tracking-[0.25em] text-gray-500">
-          
-          Technologies
-        </p>
+<div>
+  <p className="mb-6 text-sm uppercase tracking-[0.25em] text-gray-500">
+    Technologies
+  </p>
 
-        <div className="flex flex-wrap gap-3">
+  <div className="flex flex-wrap gap-3">
+    {[
+      "Python",
+      "TensorFlow",
+      "Keras",
+      "Scikit-learn",
+      "Pandas",
+      "NumPy",
+      "Deep Learning",
+      "Machine Learning",
+      "1D CNN",
+      "MATLAB",
+      "Simulink",
+      "Data Analysis",
+      "Next.js",
+    ].map((skill) => (
+      <span
+        key={skill}
+        className="rounded-full border border-white/10 bg-white/[0.03] px-5 py-3 text-sm text-gray-300 transition hover:border-blue-500/40 hover:text-white"
+      >
+        {skill}
+      </span>
+    ))}
+  </div>
 
-          {[
-            "Python",
-            "TensorFlow",
-            "Keras",
-            "Scikit-learn",
-            "Pandas",
-            "NumPy",
-            "Deep Learning",
-            "Machine Learning",
-            "1D CNN",
-            "MATLAB",
-            "Simulink",
-            "Data Analysis",
-            "Next.js",
-          ].map((skill) => (
-            <span
-              key={skill}
-              className="rounded-full border border-white/10 bg-white/[0.03] px-5 py-3 text-sm text-gray-300 transition hover:border-blue-500/40 hover:text-white"
-            >
-              {skill}
-            </span>
-          ))}
+  {/* Currently Exploring */}
+  <div className="mt-10 rounded-2xl border border-white/10 bg-white/[0.03] p-6">
+    <p className="text-sm uppercase tracking-[0.2em] text-blue-500">
+      Currently Exploring
+    </p>
 
-        </div>
-      </div>
+    <div className="mt-5 flex flex-wrap gap-3">
+      {[
+        "Deep Learning",
+        "AI Systems",
+        "Time-Series Modeling",
+        "Data Engineering",
+        "Applied Machine Learning",
+      ].map((topic) => (
+        <span
+          key={topic}
+          className="rounded-full border border-white/10 px-4 py-2 text-sm text-gray-400"
+        >
+          {topic}
+        </span>
+      ))}
+    </div>
+  </div>
+</div>
 
     </div>
   </div>

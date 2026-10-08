@@ -273,6 +273,91 @@ export default function Home() {
   </a>
 
 </div>
+{/* Project 04 */}
+<div className="rounded-3xl border border-amber-400/30 bg-amber-400/[0.05] p-8 flex h-full flex-col transition duration-300 hover:-translate-y-1 hover:border-amber-300/60 hover:bg-amber-400/[0.08] hover:shadow-[0_0_60px_rgba(251,191,36,0.12)]">
+
+  {/* Project Visual */}
+  <div className="mb-8 flex aspect-video items-center justify-center overflow-hidden rounded-2xl border border-amber-400/20 bg-gradient-to-br from-amber-400/15 via-black to-yellow-600/10">
+    <div className="text-center">
+      <p className="text-sm uppercase tracking-[0.3em] text-amber-400">
+        RAG Pipeline
+      </p>
+
+      <div className="mt-5 flex flex-wrap justify-center gap-2 px-6 text-xs text-gray-400">
+        <span className="rounded-full border border-white/10 px-3 py-2">
+          Retrieve
+        </span>
+
+        <span className="text-gray-700">→</span>
+
+        <span className="rounded-full border border-white/10 px-3 py-2">
+          Generate
+        </span>
+
+        <span className="text-gray-700">→</span>
+
+        <span className="rounded-full border border-white/10 px-3 py-2">
+          Verify
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <p className="text-sm text-gray-500">04</p>
+
+  <h3 className="mt-5 text-3xl font-semibold">
+    Local Verified RAG
+  </h3>
+
+  <p className="mt-4 max-w-2xl leading-7 text-gray-400">
+    Fully local Retrieval-Augmented Generation system combining semantic
+    retrieval, structured claim generation, evidence filtering and
+    NLI-based verification to produce grounded answers.
+  </p>
+
+  <div className="mt-8 flex flex-wrap gap-3">
+    <span className="rounded-full border border-white/10 px-4 py-2 text-sm text-gray-400">
+      RAG
+    </span>
+
+    <span className="rounded-full border border-white/10 px-4 py-2 text-sm text-gray-400">
+      Qwen2.5
+    </span>
+
+    <span className="rounded-full border border-white/10 px-4 py-2 text-sm text-gray-400">
+      DeBERTa
+    </span>
+
+    <span className="rounded-full border border-white/10 px-4 py-2 text-sm text-gray-400">
+      Python
+    </span>
+  </div>
+
+  <div className="mt-10 flex gap-10">
+    <div>
+      <p className="text-3xl font-semibold">96.67%</p>
+      <p className="mt-1 text-sm text-gray-500">
+        Held-Out Accuracy
+      </p>
+    </div>
+
+    <div>
+      <p className="text-3xl font-semibold">96.77%</p>
+      <p className="mt-1 text-sm text-gray-500">
+        F1 Score
+      </p>
+    </div>
+  </div>
+
+  <a
+    href="/projects/local-verified-rag"
+    className="mt-auto pt-10 inline-flex items-center gap-2 text-sm font-medium text-amber-400 transition hover:text-amber-300"
+  >
+    View Case Study
+    <span>→</span>
+  </a>
+
+</div>
 </div>
 
 </div>
